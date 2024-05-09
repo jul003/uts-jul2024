@@ -19,4 +19,5 @@ func Web(page *fiber.App) {
 
 	page.Get("/checkip", controller.Homepage) //ujicoba panggil package musik
 
+	page.Get("/bodomoal", controller.GetGadgetGetAll)
 }
